@@ -118,7 +118,7 @@ __webpack_require__.r(__webpack_exports__);
 var theme = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__["createMuiTheme"])({
   palette: {
     primary: {
-      main: _material_ui_core_colors_blue__WEBPACK_IMPORTED_MODULE_2___default.a[700]
+      main: '#b7c43f'
     },
     secondary: {
       main: _material_ui_core_colors_grey__WEBPACK_IMPORTED_MODULE_3___default.a[700]

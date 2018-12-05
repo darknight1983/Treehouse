@@ -170,7 +170,7 @@ var Header = function Header() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AppBar__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    position: "static",
+    position: "fixed",
     color: "primary",
     __source: {
       fileName: _jsxFileName,
@@ -193,7 +193,7 @@ var Header = function Header() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     style: style,
-    src: "../static/images/telegram-logo.svg",
+    src: "../static/images/treehouselogo2.jpg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
@@ -300,7 +300,7 @@ __webpack_require__.r(__webpack_exports__);
 var theme = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__["createMuiTheme"])({
   palette: {
     primary: {
-      main: _material_ui_core_colors_blue__WEBPACK_IMPORTED_MODULE_2___default.a[700]
+      main: '#b7c43f'
     },
     secondary: {
       main: _material_ui_core_colors_grey__WEBPACK_IMPORTED_MODULE_3___default.a[700]
@@ -496,53 +496,80 @@ var withLayout = function withLayout(BaseComponent) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _lib_withLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../lib/withLayout */ "./lib/withLayout.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _lib_withLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/withLayout */ "./lib/withLayout.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/Users/jacolbygreen/front-end-dev/TreeHouse/pages/index.js";
 
 
 
 
+
 var Index = function Index() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2905969347",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
+    className: "jsx-2905969347",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, "Index page"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+  }, "Index page"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "description",
     content: "This is the description of the Index page",
+    className: "jsx-2905969347",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
+    className: "jsx-2905969347" + " " + 'hero-img-container',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, "Content on Index page"));
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "/static/images/treeHouseAddison.jpg",
+    alt: "Treehouse room",
+    className: "jsx-2905969347",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-2905969347",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "Content on Index page"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    styleId: "2905969347",
+    css: ".hero-img-container.jsx-2905969347{width:100%;height:550px;}img.jsx-2905969347{width:100%;height:100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qYWNvbGJ5Z3JlZW4vZnJvbnQtZW5kLWRldi9UcmVlSG91c2UvcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBY2dCLEFBR29CLEFBS0EsV0FKRSxBQUtELFlBQ2QsQ0FMQSIsImZpbGUiOiIvVXNlcnMvamFjb2xieWdyZWVuL2Zyb250LWVuZC1kZXYvVHJlZUhvdXNlL3BhZ2VzL2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHdpdGhMYXlvdXQgZnJvbSAnLi4vbGliL3dpdGhMYXlvdXQnO1xuaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcblxuXG5jb25zdCBJbmRleCA9ICgpID0+IChcbiAgPGRpdj5cbiAgICA8SGVhZD5cbiAgICAgIDx0aXRsZT5JbmRleCBwYWdlPC90aXRsZT5cbiAgICAgIDxtZXRhIG5hbWU9XCJkZXNjcmlwdGlvblwiIGNvbnRlbnQ9XCJUaGlzIGlzIHRoZSBkZXNjcmlwdGlvbiBvZiB0aGUgSW5kZXggcGFnZVwiIC8+XG4gICAgPC9IZWFkPlxuICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0naGVyby1pbWctY29udGFpbmVyJz5cbiAgICAgIDxpbWcgc3JjPScvc3RhdGljL2ltYWdlcy90cmVlSG91c2VBZGRpc29uLmpwZycgYWx0PVwiVHJlZWhvdXNlIHJvb21cIiAvPlxuICAgIDwvc2VjdGlvbj5cbiAgICA8cD5Db250ZW50IG9uIEluZGV4IHBhZ2U8L3A+XG4gICAgPHN0eWxlIGpzeD57YFxuICAgICAgLmhlcm8taW1nLWNvbnRhaW5lciB7XG4gICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICBoZWlnaHQ6IDU1MHB4O1xuICAgICAgfVxuXG4gICAgICBpbWcge1xuICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9kaXY+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCB3aXRoTGF5b3V0KEluZGV4KTtcbiJdfQ== */\n/*@ sourceURL=/Users/jacolbygreen/front-end-dev/TreeHouse/pages/index.js */",
+    __self: this
+  }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(_lib_withLayout__WEBPACK_IMPORTED_MODULE_1__["default"])(Index));
+/* harmony default export */ __webpack_exports__["default"] = (Object(_lib_withLayout__WEBPACK_IMPORTED_MODULE_2__["default"])(Index));
 
 /***/ }),
 
@@ -709,6 +736,17 @@ module.exports = require("react");
 /***/ (function(module, exports) {
 
 module.exports = require("react-jss");
+
+/***/ }),
+
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
 
 /***/ })
 

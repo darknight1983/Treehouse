@@ -19,12 +19,12 @@ const Header = () => {
   }
   return (
     <div>
-      <AppBar position="static" color="primary">
+      <AppBar position="fixed" color="primary">
         <ToolBar>
         <Typography type='title' component='span'>
           <img
             style={style}
-            src='../static/images/telegram-logo.svg'/>
+            src='../static/images/treehouselogo2.jpg'/>
         </Typography>
           <Grid container direction='row' justify='space-around' align='center'>
             <Grid item xs={12} style={{ 'textAlign': 'right' }}>

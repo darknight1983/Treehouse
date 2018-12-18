@@ -48,8 +48,8 @@ const Header = (props) => {
               <Link href="/">
                 <Button style={{ "margin": '0px 20px 0px auto' }}>Page 2</Button>
               </Link>
-              <Link href="/contact">
-                <Button style={{ "margin": '0px 20px 0px auto' }}>Contact Us</Button>
+              <Link href="/interns">
+                <Button style={{ "margin": '0px 20px 0px auto' }}>Interns</Button>
               </Link>
             </Grid>
           </Grid>

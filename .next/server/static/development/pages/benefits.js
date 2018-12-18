@@ -88,15 +88,26 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./components/Banner.js":
-/*!******************************!*\
-  !*** ./components/Banner.js ***!
-  \******************************/
+/***/ "./benefits.json":
+/*!***********************!*\
+  !*** ./benefits.json ***!
+  \***********************/
+/*! exports provided: perks, default */
+/***/ (function(module) {
+
+module.exports = {"perks":[{"benefit":"Access to Union System","description":"The Union system is a huge benefit to members.Once you sign up, you will get access to all the mentors from The DEC, Addison TreeHouse, and Capital Factory. There is a learning section which walks you through the process of building and growing your business. You also get access to search and connect with othermembers through Union. You also get to book conference rooms in Union. Check it out at Union.vc.","details":[],"url":"https://union.vc/","contact-email":null},{"benefit":"IBM Global Entreprenuer Benefits","description":"IBM provides IBM Cloud PaaS and select services,for an unlimited amount of time. Build your skills andincrease your knowledge on key technologies through their resources:","details":["You must be a startup that is less than 5 years old.","You get free credits to build with more than 130 Cloud services, including Watson, Artificial Intelligence, Blockchain, advanced data analytics, and cyber security.","You get access to free training, demos, and developer patterns on developerWorks and through the Learning Lab.","You get access to exclusive Meetups and Events and can engage with their Developer Advocates through Architecture Review and Whiteboarding Sessions."],"url":"https://developer.ibm.com/startups/","contact-email":null},{"benefit":"Startup Launch by Google Developers","description":"Google offers a Developers pack for startups through the DEC. They help you design, develop, and distribute your app. Sign up here:","details":["Join Google Business Groups","Get invited to Startup Launch events worldwide","Gain access to online trainings for startups including how to raise funds, choosing your team, and choosing your platform.","Mentorship form the Startup Launch Network","UX Reviews by Google Developer’s and Startup Launch’s teams","Early access to upcoming product releases, such as APIs and SDKs","Access to Developer Relations and Startup Launch’s mentor network"],"url":"https://developers.google.com/startups/","contact-email":null},{"benefit":"Amazon Web Services Discount*","description":"The team at Amazon Web Services has a startup program for companies in our portfolio. The program, AWS Activate, provides you with the following:","details":["$5000 in AWS credits valid for 2 year","Free access to the AWS Essentials 1 day web-based or instructor-led training (normally $600/course), plus 8 tokens for self-paced labs (normally $30/lab)","One year of premium AWS Business Support (up to $5000)","Special offers from other companies that help startups, including Chef, Cloudability, Bitnami, Amazon Payments, SOASTA, Alert Logic, CopperEgg and more","If you are interested, visit the AWS Activate page to learn more and register using this Organization ID: uTkP. Note that this ID is only for our companies – please to do not share it."],"url":"http://aws.amazon.com/activate/portfolio-signup/","contact-email":null},{"benefit":"DELL Store Discount*","description":"Get 15% discounts through DELL. Please find your product through this link: www.dell.com/founderscard. Once you find your product, please create an account, then ask a sales rep to add this link number to your profile: #126537495. If you experience problems through the sign up process, or linking the number to your account, please contact Steven_R_Harris@Dell.com and let him know you are an approved company and member of the Dallas Entrepreneur Center.","details":[],"url":"www.dell.com/founderscard","contact-email":"Steven_R_Harris@Dell.com"},{"benefit":"DART Entrepreneur Passes","description":"DEC Companies get annual DART rail passes for $600, a $200 yearly discount. Add your email here: http://dartup.co/ to register. There is a DART station one block from the DEC.","details":[],"url":"http://dartup.co/","contact-email":null},{"benefit":"HubSpot Jumpstart*","description":"DEC Members have access to HubSpot resources for a 90% discount ($80/mo). They have inbound marketing program with a centralized location. Sign up and see all the benefits here:","details":["They organize leads","Provide social media analytics","Forms similar to Wufoo","One central location to see how you are finding customers, how you are being promoted, and track your pipeline"],"url":"http://offers.hubspot.com/hubspot-for-startups-startup-company-resources-learn-more","contact-email":null},{"benefit":"15% off Printing Services","description":"Local company, J&G Printing, offers a 15% discount on printing services including posters, business cards, and brochures. Please mention this discount when you contact them and Jerry can be reached at jandgprinting@sbcglobal.net","details":[],"url":"http://www.jg-printing.com/","contact-email":"jandgprinting@sbcglobal.net"},{"benefit":"First Priority in Sponsorship Opportunities","description":"Addison Treehouse members have the first opportunity and priority to sponsor upcoming Addison Treehouse or DEC Events or DEC features. Events happen frequently in the space and often have large crowds. Your sponsorship will be acknowledge via our weekly and monthly newsletter to over 10,000 email addresses.  Please contact Nancy Hong nancy@addisontreehouse.com to sponsor an area or feature at the Addison Treehouse or at the DEC","details":[],"url":"https://addisontreehouse.com/","contact-email":"nancy@addisontreehouse.com"},{"benefit":"Direct Access to Worldwide Mentors","description":"You can meet with mentors through office hours or through Union. Members get access to these mentors by logging into your Union account. There are two ways to find the mentors:","details":["Search the mentor’s name or expertise in the Search bar (located in the top-right of the Home screen). OR","Click the “Calendar” tab at the top of the Home page","On the list to the right, click “Capital Factory","On the list to the right, click “Campus” and select The DEC campus. This will show all The DEC events including mentor office hours"],"url":"https://addisontreehouse.com/","contact-email":"nancy@addisontreehouse.com"},{"benefit":"0.5% of Amazon purchases donated to the DEC","description":"DEC Members can elect to give 0.5% of the price of your eligible Amazon purchases to The DEC, through the AmazonSmile program. This does not change the price of your purchase, but it does help The DEC. You can participate by going to Smile.Amazon.com and selecting the “Dallas EC” as your charitable organization.","details":[],"url":"https://smile.amazon.com/gp/chpf/about/ref=smi_ge_ul_lm_raas","contact-email":null},{}]};
+
+/***/ }),
+
+/***/ "./components/BenefitsList.js":
+/*!************************************!*\
+  !*** ./components/BenefitsList.js ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -106,124 +117,104 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/Grid */ "@material-ui/core/Grid");
 /* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/styles */ "@material-ui/core/styles");
-/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-pose */ "react-pose");
-/* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_pose__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ "prop-types");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/jacolbygreen/front-end-dev/TreeHouse/components/Banner.js";
+/* harmony import */ var _material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/Paper */ "@material-ui/core/Paper");
+/* harmony import */ var _material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Typography */ "@material-ui/core/Typography");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/Button */ "@material-ui/core/Button");
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/styles */ "@material-ui/core/styles");
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-pose */ "react-pose");
+/* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_pose__WEBPACK_IMPORTED_MODULE_6__);
+var _jsxFileName = "/Users/jacolbygreen/front-end-dev/TreeHouse/components/BenefitsList.js";
 
 
 
 
 
+ // Going to try Pose components from 'react-pose'
 
-var styles = function styles(theme) {
-  return {
-    container: {
-      marginTop: '100px'
-    },
-    gridContainer: {
-      width: '100%'
-    },
-    gridItems: {},
-    img: {
-      borderRadius: '100%',
-      width: '350px',
-      height: '350px'
-    }
-  };
-};
 
-var Box = react_pose__WEBPACK_IMPORTED_MODULE_3___default.a.div({
+var Box = react_pose__WEBPACK_IMPORTED_MODULE_6___default.a.div({
   hoverable: true,
   init: {
     scale: 1,
     boxShadow: '0px 0px 0px rgba(0,0,0,0)'
   },
   hover: {
-    scale: 1.2
+    scale: 1.2,
+    boxShadow: '0px 5px 10px rgba(0,0,0,0.2)'
   }
 });
 
-var Banner = function Banner(props) {
+var styles = function styles(theme) {
+  return {
+    root: {
+      'margin-top': '100px',
+      'backgroundColor': 'gray',
+      'width': '80%',
+      'margin': '0px auto'
+    },
+    item: {
+      'width': '50%',
+      'flex-grow': 1
+    },
+    box: {
+      'width': '100%',
+      'height': '150px',
+      'backgroundColor': '#fff'
+    },
+    h1: {
+      padding: '10px'
+    }
+  };
+};
+
+var BenefitsList = function BenefitsList(props) {
   var classes = props.classes;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: classes.container,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
     container: true,
-    justify: "center",
-    direction: "column",
-    alignItems: "center",
-    className: classes.gridContainer,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    item: true,
-    className: classes.gridItems,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/Banner2.png",
-    alt: "Treehouse_Room",
-    style: {
-      "width": "100%",
-      "height": "100%"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    item: true,
-    className: classes.gridItems,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Box, {
-    className: classes.poseBox,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/brand2.jpg",
-    alt: "Treehouse_Room",
-    className: classes.img,
+    spacing: 16,
+    className: classes.root,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50
     },
     __self: this
-  }))))));
+  }, props.perks.map(function (perk) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      key: perk.benefit,
+      item: true,
+      className: classes.item,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Box, {
+      className: classes.box,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 53
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      component: "h1",
+      align: "center",
+      color: "secondary",
+      gutterBottom: true,
+      className: classes.h1,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 54
+      },
+      __self: this
+    }, perk.benefit)));
+  }));
 };
 
-Banner.propTypes = {
-  classes: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object
-};
-/* harmony default export */ __webpack_exports__["default"] = (Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["withStyles"])(styles)(Banner));
+/* harmony default export */ __webpack_exports__["default"] = (Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_5__["withStyles"])(styles)(BenefitsList));
 
 /***/ }),
 
@@ -647,114 +638,188 @@ var withLayout = function withLayout(BaseComponent) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/benefits.js":
+/*!***************************!*\
+  !*** ./pages/benefits.js ***!
+  \***************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _lib_withLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/withLayout */ "./lib/withLayout.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "@babel/runtime/regenerator");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _lib_withLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../lib/withLayout */ "./lib/withLayout.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/Grid */ "@material-ui/core/Grid");
 /* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_Banner_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Banner.js */ "./components/Banner.js");
-/* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-pose */ "react-pose");
-/* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_pose__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "/Users/jacolbygreen/front-end-dev/TreeHouse/pages/index.js";
+/* harmony import */ var _material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/Paper */ "@material-ui/core/Paper");
+/* harmony import */ var _material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/Typography */ "@material-ui/core/Typography");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _components_BenefitsList__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/BenefitsList */ "./components/BenefitsList.js");
+/* harmony import */ var _benefits_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../benefits.json */ "./benefits.json");
+var _benefits_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../benefits.json */ "./benefits.json", 1);
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_9__);
+
+var _jsxFileName = "/Users/jacolbygreen/front-end-dev/TreeHouse/pages/benefits.js";
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
 
 
- // Import Posed to try an animation on the logo image.
 
 
-var Box = react_pose__WEBPACK_IMPORTED_MODULE_6___default.a.div({
-  hoverable: true,
-  init: {
-    scale: 1,
-    boxShadow: '0px 0px 0px rgba(0,0,0,0)'
-  },
-  hover: {
-    scale: 1.2,
-    boxShadow: '0px 5px 10px rgba(0,0,0,0.2)'
+
+ // isomorphic fetch allows requests from client and server.
+
+
+
+var BenefitsComp =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(BenefitsComp, _React$Component);
+
+  function BenefitsComp() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    _classCallCheck(this, BenefitsComp);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(BenefitsComp)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "state", {
+      data: _benefits_json__WEBPACK_IMPORTED_MODULE_8__
+    });
+
+    return _this;
   }
-});
-var style = {
-  width: '100%'
-};
 
-var Index = function Index() {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2688446529",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
-    className: "jsx-2688446529",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, "Index page"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-    name: "description",
-    content: "This is the description of the Index page",
-    className: "jsx-2688446529",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Banner_js__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-2688446529",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, "Content on Index page"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "2688446529",
-    css: ".hero-img-container.jsx-2688446529{margin-top:100px;}.items.jsx-2688446529{width:100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qYWNvbGJ5Z3JlZW4vZnJvbnQtZW5kLWRldi9UcmVlSG91c2UvcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBa0NnQixBQUlNLEFBR0EsV0FBQyxNQUhBIiwiZmlsZSI6Ii9Vc2Vycy9qYWNvbGJ5Z3JlZW4vZnJvbnQtZW5kLWRldi9UcmVlSG91c2UvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgd2l0aExheW91dCBmcm9tICcuLi9saWIvd2l0aExheW91dCc7XG5pbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnO1xuaW1wb3J0IEdyaWQgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvR3JpZCc7XG5pbXBvcnQgQmFubmVyIGZyb20gJy4uL2NvbXBvbmVudHMvQmFubmVyLmpzJztcblxuLy8gSW1wb3J0IFBvc2VkIHRvIHRyeSBhbiBhbmltYXRpb24gb24gdGhlIGxvZ28gaW1hZ2UuXG5pbXBvcnQgcG9zZWQgZnJvbSAncmVhY3QtcG9zZSc7XG5cblxuY29uc3QgQm94ID0gcG9zZWQuZGl2KHtcbiAgaG92ZXJhYmxlOiB0cnVlLFxuICBpbml0OiB7XG4gICAgc2NhbGU6IDEsXG4gICAgYm94U2hhZG93OiAnMHB4IDBweCAwcHggcmdiYSgwLDAsMCwwKSdcbiAgfSxcbiAgaG92ZXI6IHtcbiAgICBzY2FsZTogMS4yLFxuICAgIGJveFNoYWRvdzogJzBweCA1cHggMTBweCByZ2JhKDAsMCwwLDAuMiknXG4gIH1cbn0pO1xuXG5jb25zdCBzdHlsZSA9IHtcbiAgd2lkdGg6ICcxMDAlJ1xufVxuXG5cbmNvbnN0IEluZGV4ID0gKCkgPT4gKFxuICA8ZGl2PlxuICAgIDxIZWFkPlxuICAgICAgPHRpdGxlPkluZGV4IHBhZ2U8L3RpdGxlPlxuICAgICAgPG1ldGEgbmFtZT1cImRlc2NyaXB0aW9uXCIgY29udGVudD1cIlRoaXMgaXMgdGhlIGRlc2NyaXB0aW9uIG9mIHRoZSBJbmRleCBwYWdlXCIgLz5cbiAgICA8L0hlYWQ+XG4gICAgPEJhbm5lciAvPlxuICAgIDxwPkNvbnRlbnQgb24gSW5kZXggcGFnZTwvcD5cbiAgICA8c3R5bGUganN4PntgXG4gICAgICAuaGVyby1pbWctY29udGFpbmVyIHtcbiAgICAgICAgbWFyZ2luLXRvcDogMTAwcHhcbiAgICAgIH1cbiAgICAgIC5pdGVtcyB7XG4gICAgICAgIHdpZHRoOiAxMDAlXG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L2Rpdj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IHdpdGhMYXlvdXQoSW5kZXgpO1xuIl19 */\n/*@ sourceURL=/Users/jacolbygreen/front-end-dev/TreeHouse/pages/index.js */",
-    __self: this
-  }));
-};
+  _createClass(BenefitsComp, [{
+    key: "render",
+    value: function render() {
+      var perks = this.state.data.perks;
+      return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("title", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, "Benefits page"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("meta", {
+        name: "description",
+        content: "This is the description of the Benefits page",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_BenefitsList__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        perks: perks,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }));
+    }
+  }], [{
+    key: "getInitialProps",
+    value: function () {
+      var _getInitialProps = _asyncToGenerator(
+      /*#__PURE__*/
+      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                return _context.abrupt("return", {});
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(_lib_withLayout__WEBPACK_IMPORTED_MODULE_2__["default"])(Index));
+              case 1:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      return function getInitialProps() {
+        return _getInitialProps.apply(this, arguments);
+      };
+    }()
+  }]);
+
+  return BenefitsComp;
+}(react__WEBPACK_IMPORTED_MODULE_3___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(_lib_withLayout__WEBPACK_IMPORTED_MODULE_1__["default"])(BenefitsComp));
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 5:
+/*!*********************************!*\
+  !*** multi ./pages/benefits.js ***!
+  \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! ./pages/benefits.js */"./pages/benefits.js");
 
+
+/***/ }),
+
+/***/ "@babel/runtime/regenerator":
+/*!*********************************************!*\
+  !*** external "@babel/runtime/regenerator" ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/regenerator");
 
 /***/ }),
 
@@ -810,6 +875,17 @@ module.exports = require("@material-ui/core/Grid");
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/IconButton");
+
+/***/ }),
+
+/***/ "@material-ui/core/Paper":
+/*!******************************************!*\
+  !*** external "@material-ui/core/Paper" ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Paper");
 
 /***/ }),
 
@@ -879,6 +955,17 @@ module.exports = require("@material-ui/icons/Menu");
 
 /***/ }),
 
+/***/ "isomorphic-unfetch":
+/*!*************************************!*\
+  !*** external "isomorphic-unfetch" ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("isomorphic-unfetch");
+
+/***/ }),
+
 /***/ "next/head":
 /*!****************************!*\
   !*** external "next/head" ***!
@@ -943,18 +1030,7 @@ module.exports = require("react-jss");
 
 module.exports = require("react-pose");
 
-/***/ }),
-
-/***/ "styled-jsx/style":
-/*!***********************************!*\
-  !*** external "styled-jsx/style" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-jsx/style");
-
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=benefits.js.map

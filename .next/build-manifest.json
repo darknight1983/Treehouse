@@ -15,6 +15,10 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/interns": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/benefits": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"

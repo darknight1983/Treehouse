@@ -1,5 +1,6 @@
 import withLayout from '../lib/withLayout';
 import { Formik } from 'formik';
+import InternList from '../components/InternList';
 
 
 class ContactUs extends React.Component {
@@ -19,8 +20,17 @@ class ContactUs extends React.Component {
   }
   render() {
     return (
-      <div style={{'margin-top': '64px'}}>
-        This is the Contact Us Page
+      <div style={{'marginTop': '64px'}}>
+      {/* Below is the InternList component */}
+        <InternList interns={[
+          'Micheal Jackson',
+          'Stephen King',
+          'Mack Bonnie',
+          'Chris Tucker',
+          'Lisa Simpson',
+          'Homer Simpson',
+          'Craig Mack'
+        ]}/>
         <div>
           <Formik
             initialValues={{ name: 'Jacolby'}}

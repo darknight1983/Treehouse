@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -100,7 +100,7 @@ module.exports =
 /*! exports provided: perks, default */
 /***/ (function(module) {
 
-module.exports = {"perks":[{"benefit":"Access to Union System","description":"The Union system is a huge benefit to members.Once you sign up, you will get access to all the mentors from The DEC, Addison TreeHouse, and Capital Factory. There is a learning section which walks you through the process of building and growing your business. You also get access to search and connect with othermembers through Union. You also get to book conference rooms in Union. Check it out at Union.vc.","details":[],"url":"https://union.vc/","contact-email":null},{"benefit":"IBM Global Entreprenuer Benefits","description":"IBM provides IBM Cloud PaaS and select services,for an unlimited amount of time. Build your skills andincrease your knowledge on key technologies through their resources:","details":["You must be a startup that is less than 5 years old.","You get free credits to build with more than 130 Cloud services, including Watson, Artificial Intelligence, Blockchain, advanced data analytics, and cyber security.","You get access to free training, demos, and developer patterns on developerWorks and through the Learning Lab.","You get access to exclusive Meetups and Events and can engage with their Developer Advocates through Architecture Review and Whiteboarding Sessions."],"url":"https://developer.ibm.com/startups/","contact-email":null},{"benefit":"Startup Launch by Google Developers","description":"Google offers a Developers pack for startups through the DEC. They help you design, develop, and distribute your app. Sign up here:","details":["Join Google Business Groups","Get invited to Startup Launch events worldwide","Gain access to online trainings for startups including how to raise funds, choosing your team, and choosing your platform.","Mentorship form the Startup Launch Network","UX Reviews by Google Developer’s and Startup Launch’s teams","Early access to upcoming product releases, such as APIs and SDKs","Access to Developer Relations and Startup Launch’s mentor network"],"url":"https://developers.google.com/startups/","contact-email":null},{"benefit":"Amazon Web Services Discount*","description":"The team at Amazon Web Services has a startup program for companies in our portfolio. The program, AWS Activate, provides you with the following:","details":["$5000 in AWS credits valid for 2 year","Free access to the AWS Essentials 1 day web-based or instructor-led training (normally $600/course), plus 8 tokens for self-paced labs (normally $30/lab)","One year of premium AWS Business Support (up to $5000)","Special offers from other companies that help startups, including Chef, Cloudability, Bitnami, Amazon Payments, SOASTA, Alert Logic, CopperEgg and more","If you are interested, visit the AWS Activate page to learn more and register using this Organization ID: uTkP. Note that this ID is only for our companies – please to do not share it."],"url":"http://aws.amazon.com/activate/portfolio-signup/","contact-email":null},{"benefit":"DELL Store Discount*","description":"Get 15% discounts through DELL. Please find your product through this link: www.dell.com/founderscard. Once you find your product, please create an account, then ask a sales rep to add this link number to your profile: #126537495. If you experience problems through the sign up process, or linking the number to your account, please contact Steven_R_Harris@Dell.com and let him know you are an approved company and member of the Dallas Entrepreneur Center.","details":[],"url":"www.dell.com/founderscard","contact-email":"Steven_R_Harris@Dell.com"},{"benefit":"DART Entrepreneur Passes","description":"DEC Companies get annual DART rail passes for $600, a $200 yearly discount. Add your email here: http://dartup.co/ to register. There is a DART station one block from the DEC.","details":[],"url":"http://dartup.co/","contact-email":null},{"benefit":"HubSpot Jumpstart*","description":"DEC Members have access to HubSpot resources for a 90% discount ($80/mo). They have inbound marketing program with a centralized location. Sign up and see all the benefits here:","details":["They organize leads","Provide social media analytics","Forms similar to Wufoo","One central location to see how you are finding customers, how you are being promoted, and track your pipeline"],"url":"http://offers.hubspot.com/hubspot-for-startups-startup-company-resources-learn-more","contact-email":null},{"benefit":"15% off Printing Services","description":"Local company, J&G Printing, offers a 15% discount on printing services including posters, business cards, and brochures. Please mention this discount when you contact them and Jerry can be reached at jandgprinting@sbcglobal.net","details":[],"url":"http://www.jg-printing.com/","contact-email":"jandgprinting@sbcglobal.net"},{"benefit":"First Priority in Sponsorship Opportunities","description":"Addison Treehouse members have the first opportunity and priority to sponsor upcoming Addison Treehouse or DEC Events or DEC features. Events happen frequently in the space and often have large crowds. Your sponsorship will be acknowledge via our weekly and monthly newsletter to over 10,000 email addresses.  Please contact Nancy Hong nancy@addisontreehouse.com to sponsor an area or feature at the Addison Treehouse or at the DEC","details":[],"url":"https://addisontreehouse.com/","contact-email":"nancy@addisontreehouse.com"},{"benefit":"Direct Access to Worldwide Mentors","description":"You can meet with mentors through office hours or through Union. Members get access to these mentors by logging into your Union account. There are two ways to find the mentors:","details":["Search the mentor’s name or expertise in the Search bar (located in the top-right of the Home screen). OR","Click the “Calendar” tab at the top of the Home page","On the list to the right, click “Capital Factory","On the list to the right, click “Campus” and select The DEC campus. This will show all The DEC events including mentor office hours"],"url":"https://addisontreehouse.com/","contact-email":"nancy@addisontreehouse.com"},{"benefit":"0.5% of Amazon purchases donated to the DEC","description":"DEC Members can elect to give 0.5% of the price of your eligible Amazon purchases to The DEC, through the AmazonSmile program. This does not change the price of your purchase, but it does help The DEC. You can participate by going to Smile.Amazon.com and selecting the “Dallas EC” as your charitable organization.","details":[],"url":"https://smile.amazon.com/gp/chpf/about/ref=smi_ge_ul_lm_raas","contact-email":null},{}]};
+module.exports = {"perks":[{"benefit":"Access to Union System","description":"The Union system is a huge benefit to members.Once you sign up, you will get access to all the mentors from The DEC, Addison TreeHouse, and Capital Factory. There is a learning section which walks you through the process of building and growing your business. You also get access to search and connect with othermembers through Union. You also get to book conference rooms in Union. Check it out at Union.vc.","details":[],"url":"https://union.vc/","contact_email":null},{"benefit":"IBM Global Entreprenuer Benefits","description":"IBM provides IBM Cloud PaaS and select services,for an unlimited amount of time. Build your skills andincrease your knowledge on key technologies through their resources:","details":["You must be a startup that is less than 5 years old.","You get free credits to build with more than 130 Cloud services, including Watson, Artificial Intelligence, Blockchain, advanced data analytics, and cyber security.","You get access to free training, demos, and developer patterns on developerWorks and through the Learning Lab.","You get access to exclusive Meetups and Events and can engage with their Developer Advocates through Architecture Review and Whiteboarding Sessions."],"url":"https://developer.ibm.com/startups/","contact_email":null},{"benefit":"Startup Launch by Google Developers","description":"Google offers a Developers pack for startups through the DEC. They help you design, develop, and distribute your app. Sign up here:","details":["Join Google Business Groups","Get invited to Startup Launch events worldwide","Gain access to online trainings for startups including how to raise funds, choosing your team, and choosing your platform.","Mentorship form the Startup Launch Network","UX Reviews by Google Developer’s and Startup Launch’s teams","Early access to upcoming product releases, such as APIs and SDKs","Access to Developer Relations and Startup Launch’s mentor network"],"url":"https://developers.google.com/startups/","contact_email":null},{"benefit":"Amazon Web Services Discount*","description":"The team at Amazon Web Services has a startup program for companies in our portfolio. The program, AWS Activate, provides you with the following:","details":["$5000 in AWS credits valid for 2 year","Free access to the AWS Essentials 1 day web-based or instructor-led training (normally $600/course), plus 8 tokens for self-paced labs (normally $30/lab)","One year of premium AWS Business Support (up to $5000)","Special offers from other companies that help startups, including Chef, Cloudability, Bitnami, Amazon Payments, SOASTA, Alert Logic, CopperEgg and more","If you are interested, visit the AWS Activate page to learn more and register using this Organization ID: uTkP. Note that this ID is only for our companies – please to do not share it."],"url":"http://aws.amazon.com/activate/portfolio-signup/","contact_email":null},{"benefit":"DELL Store Discount*","description":"Get 15% discounts through DELL. Please find your product through this link: www.dell.com/founderscard. Once you find your product, please create an account, then ask a sales rep to add this link number to your profile: #126537495. If you experience problems through the sign up process, or linking the number to your account, please contact Steven_R_Harris@Dell.com and let him know you are an approved company and member of the Dallas Entrepreneur Center.","details":[],"url":"www.dell.com/founderscard","contact_email":"Steven_R_Harris@Dell.com"},{"benefit":"DART Entrepreneur Passes","description":"DEC Companies get annual DART rail passes for $600, a $200 yearly discount. Add your email here: http://dartup.co/ to register. There is a DART station one block from the DEC.","details":[],"url":"http://dartup.co/","contact_email":null},{"benefit":"HubSpot Jumpstart*","description":"DEC Members have access to HubSpot resources for a 90% discount ($80/mo). They have inbound marketing program with a centralized location. Sign up and see all the benefits here:","details":["They organize leads","Provide social media analytics","Forms similar to Wufoo","One central location to see how you are finding customers, how you are being promoted, and track your pipeline"],"url":"http://offers.hubspot.com/hubspot-for-startups-startup-company-resources-learn-more","contact_email":null},{"benefit":"15% off Printing Services","description":"Local company, J&G Printing, offers a 15% discount on printing services including posters, business cards, and brochures. Please mention this discount when you contact them and Jerry can be reached at jandgprinting@sbcglobal.net","details":[],"url":"http://www.jg-printing.com/","contact_email":"jandgprinting@sbcglobal.net"},{"benefit":"First Priority in Sponsorship Opportunities","description":"Addison Treehouse members have the first opportunity and priority to sponsor upcoming Addison Treehouse or DEC Events or DEC features. Events happen frequently in the space and often have large crowds. Your sponsorship will be acknowledge via our weekly and monthly newsletter to over 10,000 email addresses.  Please contact Nancy Hong nancy@addisontreehouse.com to sponsor an area or feature at the Addison Treehouse or at the DEC","details":[],"url":"https://addisontreehouse.com/","contact_email":"nancy@addisontreehouse.com"},{"benefit":"Direct Access to Worldwide Mentors","description":"You can meet with mentors through office hours or through Union. Members get access to these mentors by logging into your Union account. There are two ways to find the mentors:","details":["Search the mentor’s name or expertise in the Search bar (located in the top-right of the Home screen). OR","Click the “Calendar” tab at the top of the Home page","On the list to the right, click “Capital Factory","On the list to the right, click “Campus” and select The DEC campus. This will show all The DEC events including mentor office hours"],"url":"https://addisontreehouse.com/","contact_email":"nancy@addisontreehouse.com"},{"benefit":"0.5% of Amazon purchases donated to the DEC","description":"DEC Members can elect to give 0.5% of the price of your eligible Amazon purchases to The DEC, through the AmazonSmile program. This does not change the price of your purchase, but it does help The DEC. You can participate by going to Smile.Amazon.com and selecting the “Dallas EC” as your charitable organization.","details":[],"url":"https://smile.amazon.com/gp/chpf/about/ref=smi_ge_ul_lm_raas","contact_email":null}]};
 
 /***/ }),
 
@@ -123,11 +123,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/Button */ "@material-ui/core/Button");
 /* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/styles */ "@material-ui/core/styles");
-/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-pose */ "react-pose");
-/* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_pose__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _material_ui_core_List__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/List */ "@material-ui/core/List");
+/* harmony import */ var _material_ui_core_List__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_List__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/ListItem */ "@material-ui/core/ListItem");
+/* harmony import */ var _material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/ListItemIcon */ "@material-ui/core/ListItemIcon");
+/* harmony import */ var _material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/core/ListItemText */ "@material-ui/core/ListItemText");
+/* harmony import */ var _material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/core/styles */ "@material-ui/core/styles");
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _material_ui_icons_Folder__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/icons/Folder */ "@material-ui/icons/Folder");
+/* harmony import */ var _material_ui_icons_Folder__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Folder__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _material_ui_core_Icon__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @material-ui/core/Icon */ "@material-ui/core/Icon");
+/* harmony import */ var _material_ui_core_Icon__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Icon__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-pose */ "react-pose");
+/* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_pose__WEBPACK_IMPORTED_MODULE_12__);
 var _jsxFileName = "/Users/jacolbygreen/front-end-dev/TreeHouse/components/BenefitsList.js";
+
+
+
+
+
+
 
 
 
@@ -136,14 +154,14 @@ var _jsxFileName = "/Users/jacolbygreen/front-end-dev/TreeHouse/components/Benef
  // Going to try Pose components from 'react-pose'
 
 
-var Box = react_pose__WEBPACK_IMPORTED_MODULE_6___default.a.div({
+var Box = react_pose__WEBPACK_IMPORTED_MODULE_12___default.a.div({
   hoverable: true,
   init: {
     scale: 1,
     boxShadow: '0px 0px 0px rgba(0,0,0,0)'
   },
   hover: {
-    scale: 1.2,
+    scale: 1,
     boxShadow: '0px 5px 10px rgba(0,0,0,0.2)'
   }
 });
@@ -152,7 +170,6 @@ var styles = function styles(theme) {
   return {
     root: {
       'margin-top': '100px',
-      'backgroundColor': 'gray',
       'width': '80%',
       'margin': '0px auto'
     },
@@ -162,13 +179,63 @@ var styles = function styles(theme) {
     },
     box: {
       'width': '100%',
-      'height': '150px',
+      'height': '100%',
       'backgroundColor': '#fff'
     },
     h1: {
-      padding: '10px'
+      padding: '10px',
+      backgroundColor: 'rgba(186, 194, 86, 1.0)'
+    },
+    fab: {
+      margin: 12
+    },
+    icon: {
+      marginRight: 10
+    },
+    description: {
+      padding: 10
     }
   };
+};
+
+var DetailsList = function DetailsList(props) {
+  var details = props.details,
+      color = props.color;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_List__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, details.map(function (item) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_7___default.a, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 68
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Icon__WEBPACK_IMPORTED_MODULE_11___default.a, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 69
+      },
+      __self: this
+    }, "star")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_8___default.a, {
+      primary: item,
+      color: color,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 71
+      },
+      __self: this
+    }));
+  }));
 };
 
 var BenefitsList = function BenefitsList(props) {
@@ -179,42 +246,179 @@ var BenefitsList = function BenefitsList(props) {
     className: classes.root,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 86
     },
     __self: this
-  }, props.perks.map(function (perk) {
+  }, props.perks.map(function (perk, i) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
       key: perk.benefit,
       item: true,
       className: classes.item,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52
+        lineNumber: 89
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Box, {
       className: classes.box,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 90
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      container: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 91
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      item: true,
+      xs: 12,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 92
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
       component: "h1",
+      variant: "title",
       align: "center",
       color: "secondary",
       gutterBottom: true,
       className: classes.h1,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 93
       },
       __self: this
-    }, perk.benefit)));
+    }, perk.benefit)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      item: true,
+      xs: 12,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 102
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      variant: "body1",
+      paragraph: true,
+      align: "justify",
+      className: classes.description,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 103
+      },
+      __self: this
+    }, perk.description)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      item: true,
+      xs: 12,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 110
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(DetailsList, {
+      details: perk.details,
+      color: "primary",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 112
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      item: true,
+      xs: 12,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 114
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: perk.url,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 115
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_4___default.a, {
+      variant: "extendedFab",
+      className: classes.fab,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 116
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Icon__WEBPACK_IMPORTED_MODULE_11___default.a, {
+      color: "primary",
+      className: classes.icon,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 117
+      },
+      __self: this
+    }, "computer"), perk.benefit))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      item: true,
+      xs: 12,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 122
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: perk.contact_email,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 123
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_4___default.a, {
+      variant: "extendedFab",
+      className: classes.fab,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 124
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Icon__WEBPACK_IMPORTED_MODULE_11___default.a, {
+      color: "primary",
+      className: classes.icon,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 125
+      },
+      __self: this
+    }, "contact_mail"), perk.contact_email))))));
   }));
-};
+}; // <Grid key={perk.benefit} item className={classes.item}>
+//   <Box className={classes.box}>
+//     <Grid container>
+//       <Grid item xs={12}>
+//         <Typography component="h1"
+//                     variant="title"
+//                     align='center'
+//                     color='secondary'
+//                     gutterBottom={true}
+//                     className={classes.h1}>
+//           {perk.benefit}
+//         </Typography>
+//       </Grid>
+//       <Grid item xs={12}>
+//         <Typography variant='body1'>
+//           {perk.description}
+//         </Typography>
+//       </Grid>
+//       <Grid item xs={12}>
+//         {/* Listing detaials about the specific benefit */}
+//       </Grid>
+//     </Grid>
+//
+//   </Box>
+// </Grid>
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_5__["withStyles"])(styles)(BenefitsList));
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_9__["withStyles"])(styles)(BenefitsList));
 
 /***/ }),
 
@@ -328,26 +532,14 @@ var Header = function Header(props) {
       lineNumber: 36
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_8___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_9___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_4___default.a, {
     className: classes.title,
     variant: "title",
     color: "inherit",
     component: "p",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 46
     },
     __self: this
   }, "Addison Treehouse"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -357,7 +549,7 @@ var Header = function Header(props) {
     align: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -368,43 +560,11 @@ var Header = function Header(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/benefits",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    style: {
-      "margin": '0px 20px 0px auto'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, "Benefits")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    style: {
-      "margin": '0px 20px 0px auto'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, "Page 2")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/interns",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 51
@@ -417,6 +577,38 @@ var Header = function Header(props) {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 52
+    },
+    __self: this
+  }, "Benefits")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    style: {
+      "margin": '0px 20px 0px auto'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, "Page 2")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/interns",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    style: {
+      "margin": '0px 20px 0px auto'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
     },
     __self: this
   }, "Interns")))))));
@@ -801,7 +993,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*********************************!*\
   !*** multi ./pages/benefits.js ***!
   \*********************************/
@@ -868,6 +1060,17 @@ module.exports = require("@material-ui/core/Grid");
 
 /***/ }),
 
+/***/ "@material-ui/core/Icon":
+/*!*****************************************!*\
+  !*** external "@material-ui/core/Icon" ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Icon");
+
+/***/ }),
+
 /***/ "@material-ui/core/IconButton":
 /*!***********************************************!*\
   !*** external "@material-ui/core/IconButton" ***!
@@ -876,6 +1079,50 @@ module.exports = require("@material-ui/core/Grid");
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/IconButton");
+
+/***/ }),
+
+/***/ "@material-ui/core/List":
+/*!*****************************************!*\
+  !*** external "@material-ui/core/List" ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/List");
+
+/***/ }),
+
+/***/ "@material-ui/core/ListItem":
+/*!*********************************************!*\
+  !*** external "@material-ui/core/ListItem" ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/ListItem");
+
+/***/ }),
+
+/***/ "@material-ui/core/ListItemIcon":
+/*!*************************************************!*\
+  !*** external "@material-ui/core/ListItemIcon" ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/ListItemIcon");
+
+/***/ }),
+
+/***/ "@material-ui/core/ListItemText":
+/*!*************************************************!*\
+  !*** external "@material-ui/core/ListItemText" ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/ListItemText");
 
 /***/ }),
 
@@ -942,6 +1189,17 @@ module.exports = require("@material-ui/core/colors/grey");
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/styles");
+
+/***/ }),
+
+/***/ "@material-ui/icons/Folder":
+/*!********************************************!*\
+  !*** external "@material-ui/icons/Folder" ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/icons/Folder");
 
 /***/ }),
 

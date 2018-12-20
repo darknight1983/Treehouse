@@ -5,7 +5,7 @@
       "description": "The Union system is a huge benefit to members.Once you sign up, you will get access to all the mentors from The DEC, Addison TreeHouse, and Capital Factory. There is a learning section which walks you through the process of building and growing your business. You also get access to search and connect with othermembers through Union. You also get to book conference rooms in Union. Check it out at Union.vc.",
       "details": [],
       "url": "https://union.vc/",
-      "contact-email": null
+      "contact_email": null
     },
     {
       "benefit": "IBM Global Entreprenuer Benefits",
@@ -17,7 +17,7 @@
         "You get access to exclusive Meetups and Events and can engage with their Developer Advocates through Architecture Review and Whiteboarding Sessions."
       ],
       "url": "https://developer.ibm.com/startups/",
-      "contact-email": null
+      "contact_email": null
     },
     {
       "benefit": "Startup Launch by Google Developers",
@@ -32,7 +32,7 @@
         "Access to Developer Relations and Startup Launch’s mentor network"
       ],
       "url": "https://developers.google.com/startups/",
-      "contact-email": null
+      "contact_email": null
     },
     {
       "benefit": "Amazon Web Services Discount*",
@@ -45,21 +45,21 @@
         "If you are interested, visit the AWS Activate page to learn more and register using this Organization ID: uTkP. Note that this ID is only for our companies – please to do not share it."
       ],
       "url": "http://aws.amazon.com/activate/portfolio-signup/",
-      "contact-email": null
+      "contact_email": null
     },
     {
       "benefit": "DELL Store Discount*",
       "description": "Get 15% discounts through DELL. Please find your product through this link: www.dell.com/founderscard. Once you find your product, please create an account, then ask a sales rep to add this link number to your profile: #126537495. If you experience problems through the sign up process, or linking the number to your account, please contact Steven_R_Harris@Dell.com and let him know you are an approved company and member of the Dallas Entrepreneur Center.",
       "details": [],
       "url": "www.dell.com/founderscard",
-      "contact-email": "Steven_R_Harris@Dell.com"
+      "contact_email": "Steven_R_Harris@Dell.com"
     },
     {
       "benefit": "DART Entrepreneur Passes",
       "description": "DEC Companies get annual DART rail passes for $600, a $200 yearly discount. Add your email here: http://dartup.co/ to register. There is a DART station one block from the DEC.",
       "details": [],
       "url": "http://dartup.co/",
-      "contact-email": null
+      "contact_email": null
     },
     {
       "benefit": "HubSpot Jumpstart*",
@@ -71,21 +71,21 @@
         "One central location to see how you are finding customers, how you are being promoted, and track your pipeline"
       ],
       "url": "http://offers.hubspot.com/hubspot-for-startups-startup-company-resources-learn-more",
-      "contact-email": null
+      "contact_email": null
     },
     {
       "benefit": "15% off Printing Services",
       "description": "Local company, J&G Printing, offers a 15% discount on printing services including posters, business cards, and brochures. Please mention this discount when you contact them and Jerry can be reached at jandgprinting@sbcglobal.net",
       "details": [],
       "url": "http://www.jg-printing.com/",
-      "contact-email": "jandgprinting@sbcglobal.net"
+      "contact_email": "jandgprinting@sbcglobal.net"
     },
     {
       "benefit": "First Priority in Sponsorship Opportunities",
       "description": "Addison Treehouse members have the first opportunity and priority to sponsor upcoming Addison Treehouse or DEC Events or DEC features. Events happen frequently in the space and often have large crowds. Your sponsorship will be acknowledge via our weekly and monthly newsletter to over 10,000 email addresses.  Please contact Nancy Hong nancy@addisontreehouse.com to sponsor an area or feature at the Addison Treehouse or at the DEC",
       "details": [],
       "url": "https://addisontreehouse.com/",
-      "contact-email": "nancy@addisontreehouse.com"
+      "contact_email": "nancy@addisontreehouse.com"
     },
     {
       "benefit": "Direct Access to Worldwide Mentors",
@@ -97,17 +97,14 @@
         "On the list to the right, click “Campus” and select The DEC campus. This will show all The DEC events including mentor office hours"
       ],
       "url": "https://addisontreehouse.com/",
-      "contact-email": "nancy@addisontreehouse.com"
+      "contact_email": "nancy@addisontreehouse.com"
     },
     {
       "benefit": "0.5% of Amazon purchases donated to the DEC",
       "description": "DEC Members can elect to give 0.5% of the price of your eligible Amazon purchases to The DEC, through the AmazonSmile program. This does not change the price of your purchase, but it does help The DEC. You can participate by going to Smile.Amazon.com and selecting the “Dallas EC” as your charitable organization.",
       "details": [],
       "url": "https://smile.amazon.com/gp/chpf/about/ref=smi_ge_ul_lm_raas",
-      "contact-email": null
-    },
-    {
-      
+      "contact_email": null
     }
   ]
 }

@@ -34,9 +34,15 @@ const Header = (props) => {
     <div className={classes.root}>
       <AppBar position="fixed" color="primary">
         <ToolBar>
+        {/*
+          Im not sure that I want to keep the hamburger menu here.
+          I would rather have a logo that is responsive.
+
           <IconButton>
             <MenuIcon />
           </IconButton>
+          */}
+
           <Typography className={classes.title} variant='title'color="inherit" component='p'>
             Addison Treehouse
           </Typography>

@@ -6,19 +6,18 @@ import PropTypes from 'prop-types';
 
 const styles = theme => ({
   container: {
-    marginTop: '100px'
+    marginTop: '75px'
   },
   gridContainer: {
     width: '100%'
   },
-  gridItems: {
-
+  treehouse: {
+    width: '80%',
+    height: '100%'
   },
-  img: {
-    borderRadius: '100%',
-    width: '350px',
-    height: '350px'
-  },
+  title: {
+    width: '100%'
+  }
 })
 
 const Box = posed.div({
@@ -42,13 +41,28 @@ const Banner = (props) => {
               direction='column'
               alignItems="center"
               className={classes.gridContainer}>
-          <Grid item className={classes.gridItems}>
-              <img src='/static/images/Banner2.png' alt="Treehouse_Room" style={{"width": "100%", "height": "100%"}}/>
+          <Grid item
+                className={classes.gridItems}
+                xs={12}
+                align='center'>
+              <img src='/static/images/Banner2.png' alt="Treehouse_Room" className={classes.logo} />
           </Grid>
-          <Grid item className={classes.gridItems}>
-            <Box className={classes.poseBox}>
-              <img src='/static/images/brand2.jpg' alt="Treehouse_Room" className={classes.img}/>
+          <Grid item
+                className={classes.gridItems}
+                xs={12}
+                align="center">
+            <Box>
+              <img src="/static/images/GrayTreehouse.png" className={classes.treehouse} />
             </Box>
+
+            {/*
+
+              <Box className={classes.poseBox}>
+                <img src='/static/images/brand2.jpg' alt="Treehouse_Room" className={classes.img}/>
+              </Box>
+
+              */}
+
           </Grid>
         </Grid>
       </section>

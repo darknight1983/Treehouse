@@ -1,12 +1,23 @@
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
 
 
 
+const styles = theme => ({
+  root: {
+    backgroundColor: 'rgba(117, 117, 117, 1.0)',
+    height: '200px'
+  }
+})
 
-const Footer = () => (
-  <div className='footer'>
-    This is the footer
-  </div>
-)
+const Footer = (props) => {
+  const { classes } = props;
+  return (
+    <div className={classes.root}>
+      This is the footer
+    </div>
+  )
+}
 
 
-export default Footer;
+export default withStyles(styles)(Footer);

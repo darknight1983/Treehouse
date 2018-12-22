@@ -35,7 +35,7 @@ const styles = theme => ({
     'margin': '0px auto'
   },
   item: {
-    'width': '50%',
+    'width': '100%',
     'flex-grow': 1
   },
   box: {
@@ -55,7 +55,7 @@ const styles = theme => ({
   },
   description: {
     padding: 10
-  }
+  },
 })
 
 const DetailsList = (props) => {
@@ -84,9 +84,18 @@ const BenefitsList = (props) => {
   const { classes } = props;
   return (
     <Grid container spacing={16} className={classes.root}>
+      <Grid container justify="center">
+        <Grid item lg={12} align="center">
+          <img src='/static/images/addisonTreehousePerks.png' alt="Perks Logo."/>
+        </Grid>
+      </Grid>
     {props.perks.map((perk, i) => {
       return (
-        <Grid key={perk.benefit} item className={classes.item}>
+        <Grid key={perk.benefit} item
+              className={classes.item}
+              xs={12}
+              md={6}
+              lg={6}>
           <Box className={classes.box}>
             <Grid container>
               <Grid item xs={12}>

@@ -45,7 +45,7 @@ const Banner = (props) => {
                 className={classes.gridItems}
                 xs={12}
                 align='center'>
-              <img src='/static/images/Banner2.png' alt="Treehouse_Room" className={classes.logo} />
+              <img src='/static/images/Banner2.png' alt="Treehouse_Room" className={classes.title} />
           </Grid>
           <Grid item
                 className={classes.gridItems}

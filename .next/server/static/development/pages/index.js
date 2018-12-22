@@ -187,7 +187,7 @@ var Banner = function Banner(props) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/static/images/Banner2.png",
     alt: "Treehouse_Room",
-    className: classes.logo,
+    className: classes.title,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48

@@ -1063,7 +1063,7 @@ var Header = function Header(props) {
     },
     __self: this
   }, "Benefits")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
+    href: "/events",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 71
@@ -1078,7 +1078,7 @@ var Header = function Header(props) {
       lineNumber: 72
     },
     __self: this
-  }, "Page 2")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "Events")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/interns",
     __source: {
       fileName: _jsxFileName,

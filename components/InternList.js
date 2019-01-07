@@ -34,7 +34,7 @@ const InternList = (props) => {
     <div>
       <Grid container justify='center'>
         <Grid item lg={12} align="center">
-          <img src='/static/images/TreehouseInterns.png' alt="Interns Logo."/>
+          <img src='/static/images/Addison_Interns.png' alt="Interns Logo."/>
         </Grid>
       </Grid>
       <Grid container justify="center">

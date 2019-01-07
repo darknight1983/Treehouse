@@ -2,6 +2,7 @@ import withLayout from '../lib/withLayout';
 import Head from 'next/head';
 import Grid from '@material-ui/core/Grid';
 import Banner from '../components/Banner.js';
+import IndexContent from '../components/IndexContent';
 
 // Import Posed to try an animation on the logo image.
 import posed from 'react-pose';
@@ -31,7 +32,7 @@ const Index = () => (
       <meta name="description" content="This is the description of the Index page" />
     </Head>
     <Banner />
-    <p>Content on Index page</p>
+    <IndexContent />
     <style jsx>{`
       .hero-img-container {
         margin-top: 100px

@@ -30,8 +30,8 @@ const styles = {
     width: '50%',
   },
   logoAvatar: {
-    width: 45,
-    height: 45,
+    width: 50,
+    height: 50,
   },
   appBar: {
     opacity: 0.9
@@ -51,9 +51,12 @@ const Header = (props) => {
             <MenuIcon />
           </IconButton>
           */}
-          <IconButton>
-            <Avatar src="/static/images/headerLogo.png" className={classes.logoAvatar} />
-          </IconButton>
+          <Link href="/">
+            <IconButton>
+              <Avatar src="/static/images/addison-network.png" className={classes.logoAvatar} />
+            </IconButton>
+          </Link>
+
 
           {/*
             <Typography className={classes.title} variant='title'color="inherit" component='p'>

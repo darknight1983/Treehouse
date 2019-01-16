@@ -11,19 +11,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/events": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/benefits": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/interns": [
+    "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

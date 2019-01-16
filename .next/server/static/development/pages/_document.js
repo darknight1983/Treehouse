@@ -283,7 +283,8 @@ function (_Document) {
         __self: this
       }, "\n             a, a:focus {\n               font-weight: 400;\n               color: #1565C0;\n               text-decoration: none;\n               outline: none\n             }\n             a:hover, button:hover {\n               opacity: 0.75;\n               cursor: pointer\n             }\n             blockquote {\n               padding: 0 1em;\n               color: #555;\n               border-left: 0.25em solid #dfe2e5;\n             }\n             pre {\n               display:block;\n               overflow-x:auto;\n               padding:0.5em;\n               background:#FFF;\n               color: #000;\n               border: 1px solid #ddd;\n             }\n             code {\n               font-size: 14px;\n               background: #FFF;\n               padding: 3px 5px;\n             }\n           ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", {
         style: {
-          "backgroundColor": '#F7F9FC'
+          "backgroundColor": '#F7F9FC',
+          "font": 'sans-serif'
         },
         __source: {
           fileName: _jsxFileName,
@@ -293,13 +294,13 @@ function (_Document) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 69
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 70
         },
         __self: this
       })));
@@ -321,7 +322,7 @@ MyDocument.getInitialProps = function (_ref) {
         generateClassName: pageContext.generateClassName,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 81
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Component, _extends({
@@ -329,7 +330,7 @@ MyDocument.getInitialProps = function (_ref) {
       }, props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 85
         },
         __self: this
       })));
@@ -344,7 +345,7 @@ MyDocument.getInitialProps = function (_ref) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 92
+        lineNumber: 93
       },
       __self: this
     })

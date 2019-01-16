@@ -2,7 +2,7 @@ import Grid from '@material-ui/core/Grid';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 
-
+import EventList from './eventsList';
 
 
 const styles = theme => ({
@@ -20,7 +20,8 @@ const styles = theme => ({
 });
 
 const EventsComp = (props) => {
-  const { classes } = props;
+  const { classes, events } = props;
+
   return (
     <div className={classes.root}>
       <div className={classes.backgroundTest}>
@@ -28,6 +29,12 @@ const EventsComp = (props) => {
           Events
         </Typography>
       </div>
+      <EventList events={events}/>
+      {/* Im going to build a grid list in another file because I think
+        the styles for this component will probably fill up the file a bit.
+
+        */}
+
     </div>
   )
 }

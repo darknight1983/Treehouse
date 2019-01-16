@@ -64,6 +64,7 @@ export default class MyDocument extends Document {
         </Head>
         <body style={{
            "backgroundColor": '#F7F9FC',
+           "font": 'sans-serif',
           }}>
           <Main />
           <NextScript />

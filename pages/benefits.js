@@ -17,7 +17,7 @@ class BenefitsComp extends React.Component {
     data: Benefits
   }
   static async getInitialProps() {
-    // Fetch datam third party API here!
+    // Fetch data third party API here!
     return {};
   }
   render() {

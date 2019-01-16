@@ -8,7 +8,7 @@ class ContactUs extends React.Component {
     super(props)
   }
   static async getInitialProps() {
-    // Fetch datam third party API here!
+    // Fetch data from third party API here!
     return {};
   }
   handleSubmit = (values, actions) => {

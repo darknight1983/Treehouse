@@ -3,6 +3,7 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
+import Link from '@material-ui/core/Link';
 
 const styles = theme => ({
   item: {
@@ -14,6 +15,9 @@ const styles = theme => ({
   },
   text: {
     fontSize: '1rem'
+  },
+  date_time: {
+    fontWeight: '700'
   }
 })
 
@@ -31,15 +35,23 @@ const EventList = (props) => {
                 <Typography variant="h4" color="primary">
                   {event.title}
                 </Typography>
-                <Typography variant="div">
+                <Typography variant="h6">
                   {event.date_time}
                 </Typography>
                 <Typography variant="headline" component="p" className={classes.text}>
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
                 </Typography>
-                <Typography variant="div">
-                    {event.evenbrite_link}
-                </Typography>
+                <Link
+                  component="button"
+                  variant="body2"
+                  onClick={() => alert(event.url)}>
+                   RSVP
+                </Link>
+                {/*
+                  <Typography variant="div">
+                      {event.eventbrite_link}
+                  </Typography>
+                  */}
               </Grid>
             </Grid>
           </Paper>

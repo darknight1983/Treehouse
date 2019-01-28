@@ -112,7 +112,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_pose__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ "prop-types");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var mdi_material_ui_Facebook__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! mdi-material-ui/Facebook */ "mdi-material-ui/Facebook");
+/* harmony import */ var mdi_material_ui_Facebook__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(mdi_material_ui_Facebook__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var mdi_material_ui_Twitter__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! mdi-material-ui/Twitter */ "mdi-material-ui/Twitter");
+/* harmony import */ var mdi_material_ui_Twitter__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(mdi_material_ui_Twitter__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var mdi_material_ui_Instagram__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! mdi-material-ui/Instagram */ "mdi-material-ui/Instagram");
+/* harmony import */ var mdi_material_ui_Instagram__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(mdi_material_ui_Instagram__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var mdi_material_ui_Linkedin__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! mdi-material-ui/Linkedin */ "mdi-material-ui/Linkedin");
+/* harmony import */ var mdi_material_ui_Linkedin__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(mdi_material_ui_Linkedin__WEBPACK_IMPORTED_MODULE_8__);
 var _jsxFileName = "/Users/jacolbygreen/front-end-dev/TreeHouse/components/Banner.js";
+
+
+
+
 
 
 
@@ -122,21 +134,17 @@ var _jsxFileName = "/Users/jacolbygreen/front-end-dev/TreeHouse/components/Banne
 var styles = function styles(theme) {
   return {
     container: {
-      marginTop: '75px'
+      marginTop: "75px"
     },
     gridContainer: {
-      width: '100%'
+      width: "100%"
     },
     treehouse: {
-      width: '70%',
-      height: '100%'
+      width: "70%",
+      height: "100%"
     },
     title: {
-      width: '100%'
-    },
-    icons: {
-      width: '40px',
-      height: '40px'
+      width: "100%"
     },
     socialContainer: {
       paddingTop: 30
@@ -148,7 +156,7 @@ var IconBox = react_pose__WEBPACK_IMPORTED_MODULE_3___default.a.div({
   hoverable: true,
   init: {
     scale: 1,
-    boxShadow: '0px 0px 0px rgba(0,0,0,0)'
+    boxShadow: "0px 0px 0px rgba(0,0,0,0)"
   },
   hover: {
     scale: 1.2
@@ -158,7 +166,7 @@ var Box = react_pose__WEBPACK_IMPORTED_MODULE_3___default.a.div({
   hoverable: true,
   init: {
     scale: 1,
-    boxShadow: '0px 0px 0px rgba(0,0,0,0)'
+    boxShadow: "0px 0px 0px rgba(0,0,0,0)"
   },
   hover: {
     scale: 1.2
@@ -170,14 +178,14 @@ var Banner = function Banner(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: classes.container,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 54
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -188,7 +196,7 @@ var Banner = function Banner(props) {
     className: classes.gridContainer,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 55
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -198,7 +206,7 @@ var Banner = function Banner(props) {
     align: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 62
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -207,7 +215,7 @@ var Banner = function Banner(props) {
     className: classes.title,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 63
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -217,13 +225,13 @@ var Banner = function Banner(props) {
     align: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 69
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Box, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 70
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -231,7 +239,7 @@ var Banner = function Banner(props) {
     className: classes.treehouse,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 71
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -241,91 +249,87 @@ var Banner = function Banner(props) {
     className: classes.socialContainer,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 76
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
     item: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/facebook.png",
-    className: classes.icons,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78
-    },
-    __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    item: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 82
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/Twitter_Social_Icon_Circle_Color.png",
-    className: classes.icons,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 83
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    item: true,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdi_material_ui_Facebook__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    color: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 84
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    item: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 87
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/linkedin.png",
-    className: classes.icons,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 88
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdi_material_ui_Twitter__WEBPACK_IMPORTED_MODULE_6___default.a, {
+    color: "primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
     item: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 92
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 93
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/Instagram.png",
-    className: classes.icons,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdi_material_ui_Linkedin__WEBPACK_IMPORTED_MODULE_8___default.a, {
+    color: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 94
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    item: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdi_material_ui_Instagram__WEBPACK_IMPORTED_MODULE_7___default.a, {
+    color: "primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
     },
     __self: this
   }))))))));
@@ -367,7 +371,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-pose */ "react-pose");
 /* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_pose__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var mdi_material_ui_Facebook__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! mdi-material-ui/Facebook */ "mdi-material-ui/Facebook");
+/* harmony import */ var mdi_material_ui_Facebook__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(mdi_material_ui_Facebook__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var mdi_material_ui_Twitter__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! mdi-material-ui/Twitter */ "mdi-material-ui/Twitter");
+/* harmony import */ var mdi_material_ui_Twitter__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(mdi_material_ui_Twitter__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var mdi_material_ui_Linkedin__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! mdi-material-ui/Linkedin */ "mdi-material-ui/Linkedin");
+/* harmony import */ var mdi_material_ui_Linkedin__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(mdi_material_ui_Linkedin__WEBPACK_IMPORTED_MODULE_12__);
 var _jsxFileName = "/Users/jacolbygreen/front-end-dev/TreeHouse/components/Contacts.js";
+
+
+
 
 
 
@@ -382,11 +395,11 @@ var _jsxFileName = "/Users/jacolbygreen/front-end-dev/TreeHouse/components/Conta
 var styles = function styles(theme) {
   return {
     avatar: {
-      width: '40%',
-      height: '40%'
+      width: "40%",
+      height: "40%"
     },
     paper: {
-      backgroundColor: '#FAFAFA',
+      backgroundColor: "#FAFAFA",
       opacity: 1,
       marginTop: 15,
       marginBottom: 15,
@@ -417,7 +430,7 @@ var IconBox = react_pose__WEBPACK_IMPORTED_MODULE_9___default.a.div({
   hoverable: true,
   init: {
     scale: 1,
-    boxShadow: '0px 0px 0px rgba(0,0,0,0)'
+    boxShadow: "0px 0px 0px rgba(0,0,0,0)"
   },
   hover: {
     scale: 1.2
@@ -434,7 +447,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     className: classes.contactsCont,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 60
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -444,7 +457,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     md: 5,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 67
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -452,7 +465,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     className: classes.paper,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 68
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Avatar__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -469,7 +482,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     className: classes.contactTitle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 73
     },
     __self: this
   }, "Nancy Hong"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -479,70 +492,67 @@ var TreehouseContacts = function TreehouseContacts(props) {
     className: classes.contactSocial,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 80
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
     item: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/facebook.png",
-    className: classes.icons,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77
-    },
-    __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    item: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/Twitter_Social_Icon_Circle_Color.png",
-    className: classes.icons,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82
-    },
-    __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    item: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 85
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 86
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/linkedin.png",
-    className: classes.icons,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 87
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdi_material_ui_Facebook__WEBPACK_IMPORTED_MODULE_10___default.a, {
+    color: "primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    item: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdi_material_ui_Twitter__WEBPACK_IMPORTED_MODULE_11___default.a, {
+    color: "primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    item: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdi_material_ui_Linkedin__WEBPACK_IMPORTED_MODULE_12___default.a, {
+    color: "primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -551,13 +561,13 @@ var TreehouseContacts = function TreehouseContacts(props) {
     className: classes.contactDescription,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 102
     },
     __self: this
   }, "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Divider__WEBPACK_IMPORTED_MODULE_7___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 111
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -567,7 +577,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     justify: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 112
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -578,7 +588,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     lg: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 113
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -587,7 +597,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     align: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 114
     },
     __self: this
   }, "nancy@addisontreehouse.com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -598,7 +608,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     lg: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 118
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -607,7 +617,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     align: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 119
     },
     __self: this
   }, "(972) 450-7076"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -617,7 +627,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     md: 5,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 127
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -625,7 +635,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     className: classes.paper,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 128
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Avatar__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -633,7 +643,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     src: "/static/images/NancyImg.jpeg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 129
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -642,7 +652,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     className: classes.contactTitle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 133
     },
     __self: this
   }, "Nancy Hong"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -652,70 +662,67 @@ var TreehouseContacts = function TreehouseContacts(props) {
     className: classes.contactSocial,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 141
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
     item: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 147
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 148
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/facebook.png",
-    className: classes.icons,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdi_material_ui_Facebook__WEBPACK_IMPORTED_MODULE_10___default.a, {
+    color: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 149
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
     item: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 152
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdi_material_ui_Twitter__WEBPACK_IMPORTED_MODULE_11___default.a, {
+    color: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 153
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/Twitter_Social_Icon_Circle_Color.png",
-    className: classes.icons,
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 154
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
     item: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 156
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconBox, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 157
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/linkedin.png",
-    className: classes.icons,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdi_material_ui_Linkedin__WEBPACK_IMPORTED_MODULE_12___default.a, {
+    color: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137
+      lineNumber: 158
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -724,13 +731,13 @@ var TreehouseContacts = function TreehouseContacts(props) {
     className: classes.contactDescription,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141
+      lineNumber: 162
     },
     __self: this
   }, "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Divider__WEBPACK_IMPORTED_MODULE_7___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147
+      lineNumber: 171
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -740,7 +747,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     justify: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148
+      lineNumber: 172
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -751,7 +758,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     lg: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 173
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -760,7 +767,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     align: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150
+      lineNumber: 174
     },
     __self: this
   }, "nancy@addisontreehouse.com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -771,7 +778,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     lg: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154
+      lineNumber: 178
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -780,7 +787,7 @@ var TreehouseContacts = function TreehouseContacts(props) {
     align: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155
+      lineNumber: 179
     },
     __self: this
   }, "(972) 450-7076"))))));
@@ -822,15 +829,15 @@ var _jsxFileName = "/Users/jacolbygreen/front-end-dev/TreeHouse/components/Foote
 var styles = function styles(theme) {
   return {
     root: {
-      backgroundColor: 'rgba(89, 89, 91, 1.0)'
+      backgroundColor: "rgba(89, 89, 91, 1.0)"
     },
     item: {
       marginTop: 50,
       marginBottom: 50
     },
     logo: {
-      width: '50%',
-      height: '100%'
+      width: "20%",
+      height: "100%"
     }
   };
 };
@@ -841,7 +848,7 @@ var Footer = function Footer(props) {
     className: classes.root,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 23
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -850,7 +857,7 @@ var Footer = function Footer(props) {
     align: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 24
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -859,49 +866,58 @@ var Footer = function Footer(props) {
     className: classes.item,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Avatar__WEBPACK_IMPORTED_MODULE_4___default.a, {
     src: "/static/images/addison-network.png",
     className: classes.logo,
+    onClick: function onClick() {
+      return alert("You clicked me");
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 26
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3___default.a, {
     item: true,
     xs: 4,
     className: classes.item,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Avatar__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    src: "/static/images/dec-network.png",
-    className: classes.logo,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Avatar__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    src: "/static/images/dec-network.png",
+    className: classes.logo,
+    onClick: function onClick() {
+      return window.location.href = "https://thedec.co/";
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3___default.a, {
     item: true,
     xs: 4,
     className: classes.item,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Avatar__WEBPACK_IMPORTED_MODULE_4___default.a, {
     src: "/static/images/redbird-network.png",
     className: classes.logo,
+    onClick: function onClick() {
+      return window.location.href = "https://redbirdec.com/";
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 40
     },
     __self: this
   }))));
@@ -1129,7 +1145,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-pose */ "react-pose");
 /* harmony import */ var react_pose__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_pose__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _Contacts__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Contacts */ "./components/Contacts.js");
+/* harmony import */ var _Partners__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Partners */ "./components/Partners.js");
 var _jsxFileName = "/Users/jacolbygreen/front-end-dev/TreeHouse/components/IndexContent.js";
+
 
 
 
@@ -1147,7 +1165,7 @@ var styles = function styles(theme) {
       marginTop: 88
     },
     test: {
-      backgroundColor: '#BAC256',
+      backgroundColor: "#BAC256",
       opacity: 0.9
     },
     text: {
@@ -1162,7 +1180,7 @@ var IndexContent = function IndexContent(props) {
     className: classes.root,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -1172,7 +1190,7 @@ var IndexContent = function IndexContent(props) {
     className: classes.test,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 29
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -1184,7 +1202,7 @@ var IndexContent = function IndexContent(props) {
     align: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 30
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -1194,13 +1212,19 @@ var IndexContent = function IndexContent(props) {
     className: classes.text,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 31
     },
     __self: this
-  }, "The Addison TreeHouse is part of The DEC network and is a coworking space and 501c3 non-profit created to help entrepreneurs start, build, and grow companies through education, mentorship, and community."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Contacts__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }, "The Addison TreeHouse is part of The DEC network and is a coworking space and 501c3 non-profit created to help entrepreneurs start, build, and grow companies through education, mentorship, and community."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Partners__WEBPACK_IMPORTED_MODULE_10__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Contacts__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
     },
     __self: this
   }));
@@ -1210,6 +1234,144 @@ IndexContent.propTypes = {
   classes: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object
 };
 /* harmony default export */ __webpack_exports__["default"] = (Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["withStyles"])(styles)(IndexContent));
+
+/***/ }),
+
+/***/ "./components/Partners.js":
+/*!********************************!*\
+  !*** ./components/Partners.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "prop-types");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/Grid */ "@material-ui/core/Grid");
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/styles */ "@material-ui/core/styles");
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/Users/jacolbygreen/front-end-dev/TreeHouse/components/Partners.js";
+
+
+
+
+
+var styles = function styles(theme) {
+  return {
+    root: {
+      backgroundColor: "#FFF",
+      marginTop: 40
+    },
+    dCB: {
+      height: 200,
+      backgroundImage: "url(../static/images/dallas-capital-bank.jpg)",
+      backgroundRepeat: "no-repeat",
+      backgroundPosition: "50%",
+      backgroundSize: "cover",
+      transformOrigin: "50% 50%",
+      marginBottom: 10
+    },
+    mile27: {
+      height: 200,
+      backgroundImage: "url(../static/images/Mile_27.png)",
+      backgroundRepeat: "no-repeat",
+      backgroundPosition: "50%",
+      backgroundSize: "cover",
+      transformOrigin: "50% 50%",
+      marginBottom: 10
+    },
+    revTech: {
+      height: 200,
+      backgroundImage: "url(../static/images/Rev_Tech.png)",
+      backgroundRepeat: "no-repeat",
+      backgroundPosition: "50%",
+      backgroundSize: "cover",
+      transformOrigin: "50% 50%",
+      marginBottom: 10
+    }
+  };
+};
+
+var Partners = function Partners(props) {
+  var classes = props.classes;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classes.root,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    container: true,
+    xs: 12,
+    align: "center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    item: true,
+    xs: 12,
+    sm: 4,
+    md: 4,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classes.dCB,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    item: true,
+    xs: 12,
+    sm: 4,
+    md: 4,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classes.mile27,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    item: true,
+    xs: 12,
+    sm: 4,
+    md: 4,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classes.revTech,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }))));
+};
+
+Partners.propTypes = {
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object
+};
+/* harmony default export */ __webpack_exports__["default"] = (Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__["withStyles"])(styles)(Partners));
 
 /***/ }),
 
@@ -1689,6 +1851,50 @@ module.exports = require("@material-ui/core/styles");
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/icons/Menu");
+
+/***/ }),
+
+/***/ "mdi-material-ui/Facebook":
+/*!*******************************************!*\
+  !*** external "mdi-material-ui/Facebook" ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("mdi-material-ui/Facebook");
+
+/***/ }),
+
+/***/ "mdi-material-ui/Instagram":
+/*!********************************************!*\
+  !*** external "mdi-material-ui/Instagram" ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("mdi-material-ui/Instagram");
+
+/***/ }),
+
+/***/ "mdi-material-ui/Linkedin":
+/*!*******************************************!*\
+  !*** external "mdi-material-ui/Linkedin" ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("mdi-material-ui/Linkedin");
+
+/***/ }),
+
+/***/ "mdi-material-ui/Twitter":
+/*!******************************************!*\
+  !*** external "mdi-material-ui/Twitter" ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("mdi-material-ui/Twitter");
 
 /***/ }),
 
